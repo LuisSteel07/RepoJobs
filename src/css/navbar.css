@@ -1,0 +1,16 @@
+.menu{
+    display: none;
+    animation: menuIn 250ms;
+}
+
+@keyframes menuIn{
+    from{
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+        transform: translateX(-240px);
+    }
+}

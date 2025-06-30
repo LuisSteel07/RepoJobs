@@ -6,6 +6,8 @@ import PrincipalView from './views/PrincialView'
 import MainTemplate from './templates/MainTemplate'
 
 import './css/main.css'
+import './css/navbar.css'
+
 import CreateJobView from './views/CreateJobView'
 
 createRoot(document.getElementById('root')!).render(

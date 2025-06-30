@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import JobComponent from "../components/JobComponent"
+import JobComponent from "../components/job/JobComponent"
 import type { Job } from "../interfaces/Job"
 import get_jobs from "../requests/getJobs"
 
