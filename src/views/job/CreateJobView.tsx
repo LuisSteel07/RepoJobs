@@ -1,7 +1,7 @@
 import { useState } from "react"
-import type { Job } from "../interfaces/Job"
+import type { Job } from "../../interfaces/Job"
 import { ToastContainer, toast } from "react-toastify"
-import create_job from "../requests/create_job"
+import create_job from "../../requests/create_job"
 
 const CreateJobView:React.FC = () => {
     const [title, setTitle] = useState<string>("")

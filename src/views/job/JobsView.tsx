@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
-import JobComponent from "../components/job/JobComponent"
-import type { Job } from "../interfaces/Job"
-import get_jobs from "../requests/getJobs"
+import JobComponent from "../../components/job/JobComponent"
+import type { Job } from "../../interfaces/Job"
+import get_jobs from "../../requests/getJobs"
 
 const JobsView:React.FC = () => {
     const [jobs, setJobs] = useState<Array<Job>>([])
