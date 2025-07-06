@@ -5,7 +5,6 @@ async function get_jobs(setter: Function){
 
             return response.json()
         })
-
     setter(res)
 }
 

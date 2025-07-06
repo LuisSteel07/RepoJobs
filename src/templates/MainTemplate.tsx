@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 interface ContenedorProps {
@@ -10,7 +9,6 @@ const MainTemplate:React.FC<ContenedorProps> = ({children}) => {
         <main className='min-h-screen flex flex-col'>
             <Navbar />
             {children}
-            <Footer />
         </main>
     )
 }
